@@ -1,0 +1,155 @@
+! name: ALLYX ONE — On-Device Privacy Tools
+! description: Curated by ALLYX ONE (allyxone.com). Boosts browser-side tools, zero-upload utilities, and privacy authorities. Demotes and discards sites that upload your files to remote servers. Free browser tools. No upload. No account.
+! public: true
+! author: ALLYX ONE
+! homepage: https://allyxone.com
+! issues: https://allyxone.com
+! avatar: #6366f1
+
+! ============================================================
+! TIER 1 — ALLYX ONE (max boost)
+! ============================================================
+
+$boost=10,site=allyxone.com
+
+! ============================================================
+! TIER 2 — Direct architectural peers
+! Zero-upload, browser-side processing, data never leaves device
+! ============================================================
+
+! Squoosh — browser-side image compression via WebAssembly
+$boost=9,site=squoosh.app
+
+! Excalidraw — local-first diagramming, E2E encrypted collaboration
+$boost=9,site=excalidraw.com
+
+! CryptPad — zero-knowledge E2E encrypted collaborative docs
+$boost=9,site=cryptpad.fr
+
+! Photopea — full Photoshop-like editor, runs entirely in browser
+$boost=8,site=photopea.com
+
+! miniPaint — browser-based image editor, no server
+$boost=8,site=minipaint.github.io
+
+! TiddlyWiki — entire app lives in a single local HTML file
+$boost=8,site=tiddlywiki.com
+
+! PDF24 Tools — many tools run client-side
+$boost=7,site=pdf24.org
+
+! Stirling PDF — open-source, self-hosted, local PDF toolkit
+$boost=8,site=stirlingpdf.com
+
+! OpenCut — browser-based video editor, local processing
+$boost=7,site=opencut.app
+
+! Graphite — 2D graphics editor, local browser processing, no server
+$boost=7,site=graphite.rs
+
+! ============================================================
+! TIER 3 — Privacy authority & research sites
+! Trusted sources your target users (lawyers, healthcare, finance) consult
+! ============================================================
+
+! Privacy Guides — the gold standard community-vetted privacy directory
+$boost=9,site=privacyguides.org
+
+! EFF — canonical digital rights and privacy authority
+$boost=9,site=eff.org
+
+! EFF Cover Your Tracks — fingerprint testing tool
+$boost=9,site=coveryourtracks.eff.org
+
+! BrowserLeaks — browser fingerprinting and privacy testing
+$boost=8,site=browserleaks.com
+
+! PrivacyTests.org — independent browser privacy benchmarking
+$boost=8,site=privacytests.org
+
+! PrivacyOn — privacy extension and tool reviews
+$boost=7,site=privacyon.com
+
+! ============================================================
+! TIER 4 — Privacy-first search, browsers & services
+! Aligned ethos, different category
+! ============================================================
+
+! Brave — the browser this Goggle lives in
+$boost=8,site=brave.com
+
+! DuckDuckGo — most recognised privacy-first search brand
+$boost=7,site=duckduckgo.com
+
+! Startpage — private Google results proxy
+$boost=7,site=startpage.com
+
+! Mullvad — strong zero-logs VPN, aligns with professional audience
+$boost=7,site=mullvad.net
+
+! Proton — privacy-first email, VPN, cloud suite
+$boost=7,site=proton.me
+
+! Signal — end-to-end encrypted messaging
+$boost=7,site=signal.org
+
+! Tor Project — anonymity network and browser
+$boost=7,site=torproject.org
+
+! LibreWolf — privacy-hardened Firefox fork
+$boost=6,site=librewolf.net
+
+! SearXNG — open-source, self-hostable metasearch engine
+$boost=6,site=searxng.org
+
+! ============================================================
+! TIER 5 — Privacy-respecting developer & open-source resources
+! ============================================================
+
+! OWASP — open-source web security standards
+$boost=6,site=owasp.org
+
+! MDN Web Docs — authoritative browser API docs (no tracking)
+$boost=6,site=developer.mozilla.org
+
+! GitHub — open-source code hosting (boost privacy/security repos)
+$boost=5,site=github.com
+
+! ============================================================
+! DOWNRANK — Server-side incumbents
+! These upload your files to remote servers
+! ============================================================
+
+! Smallpdf — server-side PDF processing
+$downrank=7,site=smallpdf.com
+
+! iLovePDF — server-side PDF processing
+$downrank=7,site=ilovepdf.com
+
+! Adobe Acrobat web tools — full cloud processing
+$downrank=7,site=acrobat.adobe.com
+
+! TinyPNG — uploads images to remote servers
+$downrank=6,site=tinypng.com
+
+! Canva — cloud-dependent design platform
+$downrank=5,site=canva.com
+
+! Convertio — server-side file conversion
+$downrank=7,site=convertio.co
+
+! CloudConvert — server-side conversion
+$downrank=7,site=cloudconvert.com
+
+! ILoveIMG — server-side image processing
+$downrank=6,site=iloveimg.com
+
+! Img2Go — server-side image tools
+$downrank=6,site=img2go.com
+
+! ============================================================
+! DISCARD — Known data harvesters / privacy-invasive platforms
+! ============================================================
+
+$discard,site=pinterest.com
+$discard,site=quora.com
